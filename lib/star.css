@@ -1,6 +1,6 @@
 #star-bg{
     position: absolute;
-  height: 200vh;
+  height: 2000px;
     z-index: -100;
     width: 100%;
   background: radial-gradient(ellipse at bottom, #371a45 0%, #090a0f 100%);
