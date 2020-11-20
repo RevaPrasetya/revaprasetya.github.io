@@ -62,6 +62,9 @@
         width: 87%;
         font-size: 15px;
     }
+    .about-img{
+        transform: translateX(22px);
+    }
     .about-img img:nth-child(1){
         width: 250px
     }
@@ -78,7 +81,7 @@
     #service .service-nav{
         height: 80px;
         padding: 10px 20px;
-        font-size: 12px;
+        font-size: 14px;
         border-radius: 0;
     }
     #service .service-nav a{
@@ -119,8 +122,11 @@
     .contact-form .form-group input, .form-group textarea{
         width: 100%;
     }
+    footer{
+        padding: 20px 40px
+    }
 }
-@media(max-width:500px){
+@media(max-width:600px){
     #service .service-nav{
         height: 60px;
     }
