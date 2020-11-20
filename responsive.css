@@ -135,6 +135,9 @@
     .contact-form .form-group input, .form-group textarea{
         width: 100%;
     }
+    .contact-form button{
+        text-align: center;
+    }
     footer{
         padding: 20px 40px
     }
@@ -145,5 +148,10 @@
     }
     .service-nav a{
         font-size: 9px
+    }
+    
+    .contact-form .form-group{
+        width: 300px;
+        flex-shrink: 0;
     }
 }
