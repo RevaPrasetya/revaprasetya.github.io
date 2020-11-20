@@ -154,4 +154,9 @@
         width: 300px;
         flex-shrink: 0;
     }
+    footer{
+        border-top-left-radius: 80px;
+        border-top-right-radius: 80px;
+        height: 190px;
+    }
 }
