@@ -270,7 +270,7 @@ header nav .contact-person-btn:hover{
 .cloud{
     width: 100%;
     position: absolute;
-    bottom: -10px;
+    bottom: -4px;
     left: 50%;
     transform: translateX(-50%);
     overflow: hidden;
@@ -323,9 +323,11 @@ header nav .contact-person-btn:hover{
 }
 .hero-container .nando-container img{
     position: absolute;
+}
+.hero-container .nando-container img:nth-child(2){
+    bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 0;
 }
 /* 
 comic-section */
