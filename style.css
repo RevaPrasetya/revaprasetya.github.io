@@ -341,8 +341,8 @@ comic-section */
 }
 .comic-section .comic-bg{
     position: absolute;
-    width: 200%;
-    height: 200%;
+    width: 300%;
+    height: 300%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -366,15 +366,19 @@ comic-section */
     bottom: 50px
 }
 .comic-section .dialogue .name-tag{
+    width: 170px;
     position: absolute;
-    top: -15%;
+    top: -20%;
     left: -5%;
 }
 .comic-section .dialogue h1{
-    color: var(--blue)
+    color: var(--blue);
+    font-size: 40px;
+    margin-bottom: 10px
 }
 .comic-section .dialogue p{
     color: var(--grey);
+    font-size: 18px;
 }
 .comic-section .dialogue-slider{
     position: absolute;
@@ -402,6 +406,9 @@ comic-section */
     border-left: 20px solid white;
     width: 40%;
     height: 100%;
+}
+.comic-section .dialogue-slider{
+    width: 50%;
 }
 .slide-container{
     min-height: 100%;
@@ -677,8 +684,8 @@ input[type=number] {
         border-radius: 20px;
     }
     .comic-section .dialogue .name-tag{
-        height: 60px;
-        top: -12%;
+        width: 120px;
+        top: -17%;
     }
     .comic-daftar p{
         margin-bottom: 15px;
@@ -742,7 +749,15 @@ input[type=number] {
         width: 340px;
         height: 340px;
     }
-    
+    .comic-section .dialogue .name-tag{
+
+    }
+    .comic-section .dialogue h1{
+        font-size: 28px;
+    }
+    .comic-section .dialogue p{
+        font-size: 14px;
+    }
     .comic-slider .slide-control{
         right: 10px;
         bottom: 0;
