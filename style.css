@@ -783,7 +783,7 @@ input[type=number] {
     }
 }
 
-@media(max-height: 670px){
+@media(max-width: 340px){
     .hero-section .nando-container{
         margin-top: 50px;
         width: 14em;
@@ -794,7 +794,7 @@ input[type=number] {
         width: 300px;
     }
 }
-@media(max-height: 600px){
+@media(max-height: 320px){
     .daftar{
         height: 100%;
         border-radius: 0;
