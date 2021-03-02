@@ -450,7 +450,7 @@ comic-section */
 }
 
 #daftar{
-    display: non;
+    overflow: scroll;
 }
 #daftar.active{
     display: flex;
@@ -729,6 +729,10 @@ input[type=number] {
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
     }
+    .daftar .close-daftar{
+        right: 20px;
+        top: 22px;
+    }
 
 }
 @media(max-width: 425px){
@@ -768,6 +772,13 @@ input[type=number] {
     .comic-slider .slide-control img{
         height: 40px;
     }
+    .daftar .input-container svg{
+        height: 20px;
+        margin-right: 0;
+    }
+    .daftar-sekarang-btn{
+        border-radius: 7px;
+    }
 }
 @media(max-width: 345px){
     header .logo{
@@ -793,8 +804,8 @@ input[type=number] {
         padding-top: 2px 5px;
     }
     .daftar .close-daftar{
-        right: 8px;
-        top: 12px;
+        right: 15px;
+        top: 20px;
     }
     .daftar .close-daftar svg{
         height: 20px;
