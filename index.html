@@ -10,6 +10,8 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="/aos/aos.css">
     <link rel="icon" href="/assets/img/OSIS.png">
+
+    <script>UPLOADCARE_PUBLIC_KEY = "demopublickey";</script>
 </head>
 
 <body>
@@ -191,6 +193,14 @@
                 <textarea name="" id="" placeholder="Alasan bergabung"></textarea>
                 <svg xmlns="http://www.w3.org/2000/svg" width="40.004" height="40" viewBox="0 0 40.004 40"><defs><style>.a{fill:#aeaeae;}</style></defs><path class="a" d="M35.409,1.581a5.509,5.509,0,0,0-7.784,0L25.676,3.54,4.935,24.271l-.044.044c-.011.011-.011.022-.022.022-.022.033-.055.066-.077.1,0,.011-.011.011-.011.022-.022.033-.033.055-.055.088-.011.011-.011.022-.022.033-.011.033-.022.055-.033.088,0,.011-.011.011-.011.022L.057,38.528a1.083,1.083,0,0,0,.264,1.123,1.108,1.108,0,0,0,.782.32,1.3,1.3,0,0,0,.352-.055L15.284,35.3c.011,0,.011,0,.022-.011a.4.4,0,0,0,.1-.044.039.039,0,0,0,.022-.011c.033-.022.077-.044.11-.066s.066-.055.1-.077c.011-.011.022-.011.022-.022s.033-.022.044-.044l22.69-22.69a5.509,5.509,0,0,0,0-7.784ZM14.931,32.715,7.269,25.053,26.447,5.875l7.663,7.662ZM6.19,27.09l6.694,6.694L2.832,37.13ZM36.84,10.8l-1.167,1.178L28.01,4.311l1.178-1.178a3.3,3.3,0,0,1,4.668,0l2.994,2.994A3.313,3.313,0,0,1,36.84,10.8Zm0,0" transform="translate(0.001 0.029)"/></svg>
             </div>
+            <div class="input-container">
+                <textarea name="" id="" placeholder="Ide kegiatan"></textarea>
+                <svg xmlns="http://www.w3.org/2000/svg" width="40.004" height="40" viewBox="0 0 40.004 40"><defs><style>.a{fill:#aeaeae;}</style></defs><path class="a" d="M35.409,1.581a5.509,5.509,0,0,0-7.784,0L25.676,3.54,4.935,24.271l-.044.044c-.011.011-.011.022-.022.022-.022.033-.055.066-.077.1,0,.011-.011.011-.011.022-.022.033-.033.055-.055.088-.011.011-.011.022-.022.033-.011.033-.022.055-.033.088,0,.011-.011.011-.011.022L.057,38.528a1.083,1.083,0,0,0,.264,1.123,1.108,1.108,0,0,0,.782.32,1.3,1.3,0,0,0,.352-.055L15.284,35.3c.011,0,.011,0,.022-.011a.4.4,0,0,0,.1-.044.039.039,0,0,0,.022-.011c.033-.022.077-.044.11-.066s.066-.055.1-.077c.011-.011.022-.011.022-.022s.033-.022.044-.044l22.69-22.69a5.509,5.509,0,0,0,0-7.784ZM14.931,32.715,7.269,25.053,26.447,5.875l7.663,7.662ZM6.19,27.09l6.694,6.694L2.832,37.13ZM36.84,10.8l-1.167,1.178L28.01,4.311l1.178-1.178a3.3,3.3,0,0,1,4.668,0l2.994,2.994A3.313,3.313,0,0,1,36.84,10.8Zm0,0" transform="translate(0.001 0.029)"/></svg>
+            </div>
+            <div class="input-container">
+                <input type="hidden" role="uploadcare-uploader" name="foto" id="kartu-pelajar"/>
+                <br><label for="foto">Foto kalian</label>
+            </div>
 
             <button type="submit" class="daftar-sekarang-btn">
                 Kirim
@@ -225,6 +235,7 @@
     <script>
         AOS.init();
     </script>
+    <script src="https://ucarecdn.com/libs/widget/3.x/uploadcare.min.js" charset="utf-8"></script>
 </body>
 
 </html>

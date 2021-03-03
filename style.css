@@ -449,8 +449,11 @@ comic-section */
     transform: translateX(-50%);
 }
 
+#daftar::-webkit-scrollbar {
+    width: 1em;
+  }
 #daftar{
-    overflow: scroll;
+    overflow-y: scroll;
 }
 #daftar.active{
     display: flex;
@@ -459,6 +462,7 @@ comic-section */
 .daftar{
     position: fixed;
     width: 500px;
+    max-height: 90vh;
     bottom: -200%;
     left: 50%;
     transform: translate(-50%, 50%);
@@ -467,12 +471,13 @@ comic-section */
     padding: 30px 40px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     z-index: 105;
     transition: ease 0.4s all;
 }
 .daftar h1{
     color: var(--blue);
+    display: block;
     text-align: center;
     font-size: 40px;
     margin-bottom: 10px;
@@ -553,6 +558,12 @@ input[type=number] {
 .daftar .close-daftar:hover svg .a{
     height: 24px;
     fill: var(--blue);
+}
+.daftar label{
+    font-family: roboto-medium;
+    color: var(--grey);
+    font-size: 16px;
+    margin-left: 10px;
 }
 
 #contact{
@@ -726,6 +737,7 @@ input[type=number] {
         transform: translate(0,0);
         width: 100%;
         height: 90%;
+        overflow: scroll;
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
     }
